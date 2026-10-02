@@ -15,6 +15,7 @@ With lazy.nvim:
 ```lua
 {
   "fulstaph/taskfile.nvim",
+  lazy = false,
   dependencies = { "folke/snacks.nvim" },
   opts = {},
   keys = {
